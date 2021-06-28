@@ -707,7 +707,7 @@ if (document.activeElement === node) {
   document.activeElement.blur();
 }
 JS;
-        $this->executeJsOnElement($element, $script);
+        // $this->executeJsOnElement($element, $script);
     }
 
     /**
